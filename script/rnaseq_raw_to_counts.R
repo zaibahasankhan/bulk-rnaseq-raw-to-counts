@@ -15,3 +15,14 @@
 # 4. Build alignment index (Rsubread)
 # 5. Align reads to reference genome
 # 6. Generate gene-level count matrix
+
+############################################################
+# Load required packages
+############################################################
+
+library(R.utils)
+library(Rsubread)
+library(data.table)
+library(Rqc)
+library(fastqcr)
+
