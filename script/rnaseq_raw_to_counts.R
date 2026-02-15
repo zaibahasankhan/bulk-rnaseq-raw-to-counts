@@ -25,4 +25,3 @@ library(Rsubread)
 library(data.table)
 library(Rqc)
 library(fastqcr)
-
