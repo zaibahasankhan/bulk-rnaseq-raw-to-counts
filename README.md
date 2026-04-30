@@ -1,4 +1,4 @@
-# 🧬 RNAseq-EndToEnd-Pipeline
+# 🧬 bulk-rnaseq-raw-to-counts
 
 ### From FASTQ to Gene Count Matrix
 
@@ -68,7 +68,7 @@ RNAseq-EndToEnd-Pipeline/
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/zaibahasankhan/RNAseq-EndToEnd-Pipeline.git
+git clone https://github.com/zaibahasankhan/bulk-rnaseq-raw-to-counts.git
 cd RNAseq-EndToEnd-Pipeline
 ```
 
