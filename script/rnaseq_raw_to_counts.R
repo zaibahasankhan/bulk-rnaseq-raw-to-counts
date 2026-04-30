@@ -13,6 +13,15 @@ It is designed for **bulk RNA-seq data** and integrates widely used bioinformati
 FASTQ → FastQC → fastp → STAR → featureCounts → Count Matrix
 ```
 
+## 🧩 Pipeline Design
+
+This workflow follows a modular design:
+
+- Individual steps are implemented as separate scripts in the `scripts/` directory  
+- The `run_pipeline.sh` file executes the full pipeline sequentially  
+
+This design improves reproducibility, scalability, and ease of debugging.
+
 ### Step-wise Description
 
 1. **Quality Control** – Assess raw reads using FastQC
