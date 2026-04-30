@@ -49,7 +49,7 @@ This design improves reproducibility, scalability, and ease of debugging.
 ## 📁 Repository Structure
 
 ```
-RNAseq-EndToEnd-Pipeline/
+bulk-rnaseq-raw-to-counts/
 │
 ├── data/                  # Input FASTQ files (not included)
 ├── reference/             # Genome FASTA and annotation GTF
@@ -67,14 +67,14 @@ RNAseq-EndToEnd-Pipeline/
 
 ### 1. Clone Repository
 
-```
+```bash
 git clone https://github.com/zaibahasankhan/bulk-rnaseq-raw-to-counts.git
-cd RNAseq-EndToEnd-Pipeline
+cd bulk-rnaseq-raw-to-counts
 ```
 
 ### 2. Create Conda Environment
 
-```
+```bash
 conda env create -f environment.yml
 conda activate rnaseq_pipeline
 ```
@@ -83,9 +83,9 @@ conda activate rnaseq_pipeline
 
 ## 🚀 Quick Start
 
-```
-git clone https://github.com/zaibahasankhan/RNAseq-EndToEnd-Pipeline.git
-cd RNAseq-EndToEnd-Pipeline
+```bash
+git clone https://github.com/zaibahasankhan/bulk-rnaseq-raw-to-counts.git
+cd bulk-rnaseq-raw-to-counts
 conda env create -f environment.yml
 conda activate rnaseq_pipeline
 bash run_pipeline.sh
@@ -97,13 +97,13 @@ bash run_pipeline.sh
 
 Run the complete pipeline:
 
-```
+```bash
 bash run_pipeline.sh
 ```
 
 Or run step-wise:
 
-```
+```bash
 bash scripts/01_fastqc.sh
 bash scripts/02_fastp.sh
 bash scripts/03_star_align.sh
